@@ -1,0 +1,15 @@
+[run]
+branch = true
+source =
+    .
+omit =
+    *_test.py
+
+[report]
+exclude_lines =
+    if __name__ == .__main__.:
+    def get_args()
+    def main(args_parsed: argparse.Namespace)
+
+omit =
+    *_test.py
